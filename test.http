@@ -1,0 +1,15 @@
+@rootUrl=http://localhost:5000
+
+
+PUT {{rootUrl}}/update_user/67ef982eec4c9e2712a53048
+Content-Type: application/json 
+
+{
+    "full_name": "sri",
+    "mob_num": "+911234567890",
+    "pan_num": "ABCDE1234F",
+    "manager_id": "2f8eb79b-8bad-46c0-8a83-aa09909ae98f"
+}
+
+###
+DELETE {{rootUrl}}/delete_user/67ef982eec4c9e2712a53048
